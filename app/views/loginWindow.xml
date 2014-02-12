@@ -1,0 +1,21 @@
+<Alloy>
+	<Window class="container" >
+		<View id="view">
+			<Label id="label"></Label>
+			
+			<TextField id= "text"></TextField>
+			
+		</View>
+		
+		<View id="view2">
+			<Label id="label1"></Label>
+			<TextField id= "password"></TextField>
+		</View>
+		
+		<View id="view1">
+			<Button id="button"></Button>
+			<Button id="registerBtn" onClick="openRegister"></Button>
+		</View>
+		
+	</Window>
+</Alloy>

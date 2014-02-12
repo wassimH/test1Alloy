@@ -1,0 +1,122 @@
+
+".container": {
+  backgroundColor: 'white',
+  layout: 'vertical'
+},
+
+"#view": {
+	top:0,
+	width: Ti.UI.FILL,
+	height: 60,
+	backgroundColor: '#fff'
+},
+
+"#Backbtn": {
+	title: '<BACK',
+	top: 20,
+	left:10,
+},
+
+"#label": {
+	top: 20,
+	text: 'Register',
+	textAlign: 'center'
+}
+
+"#view1": {
+	top: 0,
+	width: Ti.UI.FILL,
+	height:110,
+	backgroundColor: '#fff'
+},
+
+"#label1": {
+	text: 'Email',
+	top: 60,
+	left: 30,
+	width: 80,
+	height: 40
+},
+
+"#text1": {
+	left: 120,
+	right:20,
+	height: 40,
+	top: 60,
+	borderWidth: 1,
+	borderRadius: 5,
+	hintText: 'user @ example.com',
+	textAlign: 'center'
+},
+
+"#view2": {
+	top: 0,
+	width: Ti.UI.FILL,
+	height: 60,
+	backgroundColor: '#fff',
+},
+
+"#text2": {
+	left: 120,
+	right:20,
+	height: 40,
+	top: 10,
+	borderWidth: 1,
+	borderRadius: 5,
+	hintText: 'Type your password',
+	passwordMask: true,
+	textAlign: 'center'	
+},
+
+"#label2": {
+	text: 'password',
+	top: 10,
+	left: 30,
+	width: 80,
+	height: 40
+},
+
+"#view3": {
+	top: 0,
+	width: Ti.UI.FILL,
+	height: 60,
+	backgroundColor: '#fff',
+},
+
+"#text3": {
+	left: 120,
+	right:20,
+	height: 40,
+	top: 10,
+	borderWidth: 1,
+	borderRadius: 5,
+	hintText: 'password',
+	passwordMask: true,
+	textAlign: 'center'
+},
+
+"#label3": {
+	text: 'repeat password',
+	top: 5,
+	left: 30,
+	width: 80,
+	height: 50
+},
+
+"#view4": {
+	top: 0,
+	width: Ti.UI.FILL,
+	height: 80,
+	backgroundColor: "#fff"
+},
+
+"#button1": {
+	title: 'Register',
+	top: 20,
+	left:30,
+	right: 20,
+	height: 40,
+	borderWidth: 1,
+	borderRadius:5,
+	textAlign: 'center'
+}
